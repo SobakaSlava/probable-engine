@@ -10,6 +10,8 @@ processTrainingData = data => data.map(d => {
     }
   });
 
+const iWantATshirt = 'I want a T-shirt very much';
+
 const network = new brain.NeuralNetwork();
 
 network.train(processTrainingData(trainingData));
