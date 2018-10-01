@@ -1,4 +1,6 @@
 const brain = require('brain.js');
+
+
 const trainingData = require('./trainingdata');
 
 const encode = arg => arg.split('').map(x => (x.charCodeAt(0) / 255));
