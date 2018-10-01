@@ -17,7 +17,6 @@ network.train(processTrainingData(trainingData));
 const message = "As a matter conference Democrats House";
 
 const name = brain.likely(encode(message), network);
-
 console.log('that is', name);
 
 console.log(network.run(encode(message)));
