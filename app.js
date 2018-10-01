@@ -10,6 +10,8 @@ processTrainingData = data => data.map(d => {
     }
   });
 
+const aBranNewThirt = 'Is very beautiful';
+
 const network = new brain.NeuralNetwork();
 
 network.train(processTrainingData(trainingData));
